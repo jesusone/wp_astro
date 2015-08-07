@@ -1,0 +1,331 @@
+/*========================
+=======Typography=========
+==========================*/
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: $primary_color;
+  background-color: #fff;
+}
+ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+a:focus, 
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color:#ffe600;
+}
+
+h1 {
+  font-size:36px;
+}
+
+h2 {
+  font-size:30px;
+}
+
+h3 {
+  font-size:25px;
+}
+
+h4 {
+  font-size:20px;
+}
+
+h5 {
+  font-size:18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight:normal;
+}
+
+.padding-top {
+  padding-top:100px;
+}
+
+.padding-bottom{  
+  padding-bottom:95px;
+}
+
+.section-title {  
+  font-weight: 300;
+}
+
+.section-title h2{
+  display:inline-block;
+  position:relative;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-bottom: 22px;
+  text-transform: capitalize;
+  color:#000;
+}
+
+.section-title h2 small {
+  display:block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color:#515151;
+  font-weight: 300;
+}
+
+.section-title h2:after {
+  background-color: #FFE600;
+  content: "";
+  left:50%;
+  bottom:0;
+  height: 3px;
+  margin-left:-85px;
+  position: absolute;
+  width:170px;  
+}
+
+.btn-default {  
+  background-color:#ffe600;
+  border-color:#ffe600;
+  color: #333;
+  font-size: 17px;
+  margin-top: 45px;
+  font-weight:bold;
+  padding: 17px 20px;
+  text-transform: uppercase;
+  position:relative;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  z-index:1
+}
+
+.btn-default:before {
+  position: absolute;
+  content: "";
+  background-color:#ffe600;
+  border-radius: 4px;
+  height: 100%;
+  width: 0;
+  left:50%;
+  top:0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index:-1
+}
+
+.btn-default:after {
+  position: absolute;
+  content: "";
+  background-color:#ffe600;
+  border-radius: 4px;
+  height:100%;
+  width:0;
+  right:50%;
+  top:0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index:-1
+}
+
+.btn-default:hover:before {
+  width: 100%;
+  left:0;
+}
+
+.btn-default:hover:after {
+  width:100%;
+  right:0;
+}
+
+.btn-default:hover, 
+.btn-default:focus {  
+  background-color:transparent;
+  border-color:#ffe600;
+  color:#000;
+  border-radius:4px;
+}
+
+.parallax-section {   
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  width: 100%;
+  min-height:548px;
+  color:#fff;
+}
+
+.overlay{
+  background:rgba(19, 19, 22, 0.30);
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/*=======  End  ==========
+=======Typography=========
+==========================*/
+
+/*========================
+=======Preloader CSS======
+==========================*/
+.preloader{
+  display: table;
+  background: #fff;
+  z-index: 999999;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#loaderImage {
+  display: table-cell;
+  vertical-align: middle;
+  overflow: hidden;
+  text-align: center;
+}
+
+#canvas {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+/*=======================
+=====Start Features =====
+=========================*/
+
+#features{
+	padding: 40px 0;
+	overflow:hidden;
+}
+
+.featured-tab{
+	background-color:#fafafa;
+	border: 1px solid #f1f1f1;
+	padding: 40px 30px;
+	margin:40px 0 60px;
+}
+
+.featured-tab .nav-tabs{
+	border-bottom: 0;
+}
+
+.featured-tab .nav-tabs>li.active>a h3, 
+.featured-tab .nav-tabs>li a:hover h3{
+	color: #333;
+	background-color:#ffe600;
+}
+
+.featured-tab .nav-tabs>li.active>a:after, 
+.featured-tab .nav-tabs>li:hover a:after {
+	left: 100%;
+	border: transparent solid;
+	content: " ";
+	position: absolute;
+	border-width: 40px;
+	top: 50%;
+	border-left-color: #FFDF00;
+	margin-top: -40px;
+}
+
+.featured-tab .nav-tabs>li>a{
+	border-radius: 4px 0 0 4px;
+	padding: 18px 15px 8px;
+	color: #858585;
+	position: relative;
+	border: 0 !important;
+}
+
+.featured-tab .feature-icon{
+	font-size: 34px;
+}
+
+.featured-tab .feature-content{
+	margin-left: 50px;
+}
+
+.featured-tab .feature-content h3{
+	font-size: 20px;
+	line-height: normal;
+	margin: 0;
+}
+
+.featured-tab .tab-pane .pull-left{
+	margin: 0 25px 10px 0;
+}
+
+.featured-tab .tab-pane .pull-right{
+	margin: 0 0 10px 25px;
+}
+
+.featured-tab .tab-pane .tab-image img {
+	margin-bottom:15px;
+}
+
+.featured-tab .tab-pane h3{
+	margin: 0;
+	line-height: normal;
+	color:#515151;
+    font-size: 25px;
+}
+
+.featured-tab .tab-pane h4{
+	line-height: normal;
+	margin: 0 0 20px;
+	font-weight: 300;
+    font-size: 20px;
+}
+.featured-tab .tab-pane a {
+	color:#FFDF00;
+	margin-top:15px;
+}
+
+.featured-tab .tab-pane a:hover {
+	color:#515151;
+}
+
+.featured-tab .tab-pane{
+	padding-left: 25px;
+	overflow:hidden;
+}
+
+.featured-tab .tab-pane{	
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+/*======= End ===========
+===== Features Section =====
+=========================*/
+
+/* Style row Slider */
+.blue-slider{
+	display: inline-block;
+	width: 100%;
+}
+/* Style row Slider */

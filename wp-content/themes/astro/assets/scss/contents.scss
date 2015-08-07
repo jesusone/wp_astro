@@ -1,0 +1,103 @@
+/* ========================================================================
+  1. Blog
+=================================================================== */
+
+/* -------------------------------
+---------- Content ---------------
+--------------------------------- */
+
+/* =================================
+  [Start] 1. Blog  */
+
+    .entry-header {
+      padding-bottom: 0;
+      padding-top:0;
+      position:relative;
+      h3 {
+        color: #454545;
+        margin-top: 45px;
+        text-transform: uppercase;
+        font-size: 24px;
+      }
+    }
+    .entry-meta {
+      margin-bottom: 30px;
+      span {
+        margin-right:20px;
+        a {
+          font-size:16px;
+          font-weight:300;
+          color:#454545;
+          &:hover {
+            color:#000;
+          }
+        }
+      }
+    }
+    .entry-post {}
+    .social-share {
+      margin-top: 60px;
+      overflow: hidden;
+      ul {
+        li {
+          float: left;
+          margin-right: 30px;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .author-details {
+      h2 {
+        font-weight: 300;
+        margin-bottom: 35px;
+        font-size: 24px;
+        text-transform: capitalize;
+      }
+      .media-body {
+        h3 {
+          font-size:18px;
+          color: #000;
+          font-weight: 300;
+          margin-top:0; 
+        }
+        .author-social {
+          margin-bottom: 20px;
+          margin-top: 30px;
+          a {
+            color: #000;
+            display: inline-block;
+            font-size: 16px;
+            height: 35px;
+            line-height: 35px;
+            margin-right: 5px;
+            text-align: center;
+            width: 35px;
+            &:hover {
+              color:#fff;
+              background-color:#ffe600;
+            }
+          }
+        }
+      }
+    }
+    .comments-area {
+      h2 {
+        font-weight: 300;
+        margin-bottom: 25px;
+        font-size:24px;
+      }
+    }
+    .comments-area img, 
+    .author-details img {
+      background:#f4f3f3;
+      height: 75px;
+      margin-right: 25px;
+      padding: 2px;
+      width: 75px;  
+    }
+
+
+/* [End] 1. Blog 
+===================================*/

@@ -1,0 +1,157 @@
+/*========================
+======Main Navigation=====
+==========================*/
+#navigation{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  .container {
+      position:relative;
+    }
+  .main-nav {
+      background-color: rgba(19, 19, 22, 0.50);
+      border-radius: inherit;
+      .navbar-brand {
+         h1 {
+          margin:7px 0;
+         }  
+      }
+      .cart-section {
+          position: absolute;
+          top: 27px;
+          right:15px;
+          .icons i {
+              float: left;
+              width: 45px;
+              text-align: center;
+              color: $primary_color;
+              cursor: pointer;
+              &:hover {
+                  color:#ffe600;
+              }
+          }
+        }
+        .search.search-toggle  {
+            display:block;
+        }
+
+        .search {
+          display:none;
+          position:absolute;
+          left:0;
+          right:0;
+          top:0;
+          height:75px;
+          .search-form{
+              padding-left: 15px;
+              height: 75px;
+              font-size: 16px;
+              color: #818285;
+              font-weight: 300;
+              outline: none;
+              border: 1px solid #ffe600;
+              width: 100%;
+              text-align:center;
+            }
+        .search-close {
+              position: absolute;
+              top: 50%;
+              right: 25px;
+              margin-top: -32px;
+              font-size: 40px;
+              cursor: pointer;
+              -webkit-transition: all 0.3s ease-in-out;
+              -moz-transition: all 0.3s ease-in-out;
+              -ms-transition: all 0.3s ease-in-out;
+              -o-transition: all 0.3s ease-in-out;
+              transition: all 0.3s ease-in-out;
+              &:hover {
+                  color: #ffe600;
+              }
+            } 
+            
+        }
+         .navbar-toggle .icon-bar {
+              background-color:#FFFFFF;
+         }
+ }
+  #main-menu {
+      margin-right:70px;
+  }
+  .navbar-right {
+      li {
+        a {
+          font-weight: 500;
+          text-transform: uppercase;
+          position: relative;
+        }
+        &:hover {
+          a {
+              &:before {
+              position:absolute;
+              content:"";
+              height:2px;
+              background-color:#fde30a;
+              bottom:0;
+              left:0;
+              right:0;
+              margin-top:41px;
+            }
+            &:after {
+              position:absolute;
+              content:"";
+              height:2px;
+              background-color:#fca43a;
+              bottom:-2px;
+              left:0;
+              right:0;
+            }
+          }  
+        }
+      }
+      li.active a:before, 
+        .active-class a:before {
+          position:absolute;
+          content:"";
+          height:2px;
+          background-color:#fde30a;
+          bottom:0;
+          left:0;
+          right:0;
+          margin-top:41px;
+        }
+      li.active a:after, 
+        .active-class a:after {
+          position:absolute;
+          content:"";
+          height:2px;
+          background-color:#fca43a;
+          bottom:-2px;
+          left:0;
+          right:0;
+        } 
+  }
+  .navbar-nav {
+      li {
+          a:hover, 
+           a:focus, 
+           li.active a, .active-class a {
+              background:transparent;
+              color:#ffe600;
+              outline: medium none;
+              outline-offset: 0;
+            }   
+      }
+    }
+}
+/*** Admin Bar ***/
+.admin-bar{
+    #navigation{
+        top: 32px;  
+    }
+}
+/*** End Admin Bar ***/
+/*CSS HEADER*/
+
+

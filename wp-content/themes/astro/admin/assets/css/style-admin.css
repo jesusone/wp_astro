@@ -1,0 +1,66 @@
+/*style admin promsu*/
+#pr-promsu-main {
+    width: 900px;
+    margin: 15px;
+    z-index: 0;
+}
+#pr-nav {
+    float: left;
+    position: relative;
+    z-index: 9999 ;
+    width: 200px;
+}
+#pr-content {
+    width: 100%; 
+    float: left;
+}
+#wpbody-content{background-color:#f1f1f1}
+.color-box {
+    float:left;
+    width:30px;
+    height:30px;
+    margin:5px;
+    border: 1px solid white;
+}
+#pr-header
+{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #1abc9c;
+    padding: 10px 0px 12px 10px;
+    background-color: #93E2D2;
+}
+.pr-main-content{width: 100%;}
+.pr-main-content{margin-top: 20px;}
+.accordion-group{border: 1px solid #1abc9c;width: 100%;/*padding: 10px 0px 30px 10px;*/margin-bottom: 30px;border-top-left-radius:10px;border-top-right-radius:10px ;}
+.accordion-heading
+{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+    padding: 15px;
+    background-color: #1abc9c;
+}
+.accordion-group label,.accordion-group label{padding: 0px 0px 0px 15px;font-size: 15px;}
+.accordion-group input, .accordion-group textarea{margin-left: 15px;}
+.accordion-heading a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+.accordion-group textarea,.init-image{width: 90%;max-height: 200px;}
+.option-group{padding-top: 10px;margin-bottom: 20px;border-top: 1px solid #DFDFDF;}
+.accordion-body{padding-top: 30px;
+padding-bottom: 50px;}
+.init-image,.help-block,.option-group .checkbox,.option-group .radio,.option-group .select .btn-group{margin-left: 15px;}
+.init-image img,.init-image a{margin-left: 51px}
+.option-group .select label{display: block;}
+#wpcontent{background-color: #f1f1f1;}
+#save-changes{padding: 11px 16px;height: 44px;margin-right: 27px;margin-top: 11px;float: right;}
+.option-group .pr-radio-img-view {  border: 3px solid #fff; margin: 0 5px 10px 0;   cursor: pointer; float: left;}
+.option-group .pr-radio-img-selected {  border: 3px solid #ffe600 !important; }
+.option-group .pr-radio-img-label { display: none; }
+.option-group .pr-radio-img-view:hover{opacity:0.8}
+.option-group .pr-radio-img {
+    display: none;
+}
