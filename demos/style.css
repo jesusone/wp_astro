@@ -1,0 +1,140 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size:13px; 
+	line-height:21px; 
+	height:100%; 
+	color:#000;  
+	margin:0; 
+	padding:0
+}
+a { 
+	color:#ffe600; 
+	text-decoration: none; 
+	outline: none; 
+	border: none; 
+}
+a img {
+	outline : none; 
+	border: 0; 
+}
+#Main { 
+	width: 920px; 
+	margin: 0 auto; 
+	overflow: hidden; 
+	text-align:center;
+}
+#heading, #heading2 {
+	background:#ffe600;
+	color: #333;
+	display: inline-block;
+	font-weight: 300;
+	margin-bottom: 65px;
+	overflow: hidden;
+	padding: 15px 30px 18px;
+	text-transform: uppercase;
+	line-height:30px;
+}
+#heading2 {
+	margin-bottom:80px;
+}
+.border {
+	width:100%;
+	height:2px;
+	background-color:#ffe600;
+	overflow:hidden;
+}
+h1 {
+	margin:0;
+}
+h3 {
+	text-align: center; 
+	margin-bottom: 23px; 
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;  
+	color: #000; 
+	margin: -15px 0 0; 
+	font-weight:300; 
+	text-transform:uppercase;
+}
+img.scale-with-grid { 
+	max-width: 100%; 
+	height: auto; 
+	position: relative; 
+	z-index: 9999; 
+}
+.demo {
+	overflow: hidden; 
+	margin-top: 20px; 
+}
+.demo .item {
+	width: 422px; 
+	float: left; 
+	position: relative; 
+	margin-bottom: 75px; 
+}
+.demo .item_left { 
+	margin-right: 60px;
+}
+.demo .item .desktop {
+	position: absolute; 
+	left: 22px; 
+	top: 20px; 
+	width: 378px; 
+	height: 236px; 
+	overflow: hidden; 
+	z-index: 1; 
+}
+.demo .item .desktop .inside {
+	position: absolute; 
+	left: 0px; 
+	width: 378px; 
+	line-height: 0;
+}
+
+.demo .item .desktop .inside {   
+	-webkit-transition-duration: 2s;
+	-moz-transition-duration: 2s;
+	-ms-transition-duration: 2s;
+	-o-transition-duration: 2s;
+	transition-duration: 2s; 
+}
+		  
+.demo .item.item_left a:hover .desktop .inside {
+	margin-top:-1500px;
+	}
+.demo .item a:hover .desktop .inside {
+	margin-top:-1500px;;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#Main { width: 760px; }
+	.demo .item { width: 370px; }
+	.demo .item_left { margin-right: 20px; }
+	.demo .item .desktop { position: absolute; left: 19px; top: 17px; width: 332px; height: 207px; }
+	.demo .item .desktop .inside { position: absolute; left: 0px; top: 0px; width: 332px; }
+	
+	.demo .item.item_left a:hover .desktop .inside { margin-top:-370px;}
+	.demo .item a:hover .desktop .inside { margin-top:-376px;}
+}
+
+@media only screen and (max-width: 767px) {
+	#Main { width: 420px; }
+	.demo .item { width: 420px; }
+	.demo .item_left { margin-right: 0px; margin-bottom: 30px; }
+	.demo .item .desktop { position: absolute; left: 22px; top: 20px; width: 376px; height: 235px; }
+	.demo .item .desktop .inside { position: absolute; left: 0px; top: 0px; width: 376px; }
+	
+	.demo .item.item_left a:hover .desktop .inside { margin-top:-256px;}
+	.demo .item a:hover .desktop .inside { margin-top:-208px;}
+}
+
+@media only screen and (max-width: 479px) {
+	#Main { width: 300px; }
+	.demo .item { width: 300px; }
+	.demo .item_left { margin-right: 0px; margin-bottom: 30px; }
+	.demo .item .desktop { position: absolute; left: 16px; top: 14px; width: 268px; height: 168px; }
+	.demo .item .desktop .inside { position: absolute; left: 0px; top: 0px; width: 268px; }
+	
+	.demo .item.item_left a:hover .desktop .inside { margin-top:-182px;}
+	.demo .item a:hover .desktop .inside { margin-top:-148px;}
+}
