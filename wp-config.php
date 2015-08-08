@@ -26,7 +26,7 @@ define('DB_NAME', 'linhthao_astro');
 define('DB_USER', 'linhthao_lt');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'khoald2302'); 
+define('DB_PASSWORD', 'khoald2302');  
 
 /** MySQL hostname */
 define('DB_HOST', '103.3.244.70');
