@@ -5,7 +5,7 @@ function pr_cmsblue_blog($atts, $content = null) {
       $data = shortcode_atts(
                 array(
                     'blog_style' => '',
-                    'number_posts' => '',
+                    'number_posts' => 4,
                     'post_per_row' => '',
                     'blog_category' => '',
                     'orderby' => 'ID',
@@ -31,7 +31,6 @@ function pr_cmsblue_blog($atts, $content = null) {
         if($blog_style == '1' && $post_per_row == $number_posts){
           $paged = 1; 
         }
-		print_r($number_posts);
 		if (is_numeric($number_posts)) {
 			$query=array(
                 'posts_per_page'=>  $number_posts,

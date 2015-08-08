@@ -3,7 +3,7 @@ var cSpeed=8;
 	var cHeight=34;
 	var cTotalFrames=10;
 	var cFrameWidth=150;
-	var cImageSrc='http://demo.cmsbluetheme.com/wp_astro/wp-content/uploads/2015/06/sprites.gif';
+	var cImageSrc='';
 	
 	var cImageTimeout=false;
 	

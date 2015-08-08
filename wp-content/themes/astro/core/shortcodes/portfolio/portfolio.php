@@ -9,16 +9,16 @@
         'category' => '',
         'crop_image' => false,
         'width_image' => 255,
-        'height_image' => 176,
+        'height_image' => 176,		
         'show_category'=>true,
          ), $atts));
 
         //Seting option 
         $port_option = array(
-           'show_category'=>$show_category,   
-           'category'=>$category,  
-           'width_image'=>$width_image,  
-           'height_image'=>$height_image,  
+           'show_category'=>$show_category,
+           'category'=>$category,
+           'width_image'=>$width_image,
+           'height_image'=>$height_image,
            'category'=>$category  
         );
          //Buding array item porfolio
