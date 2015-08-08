@@ -20,16 +20,16 @@
 define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] .'/wp_astro/home-default/');
 define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] .'/wp_astro/home-default/');
 
-define('DB_NAME', 'cmsbluet_wp_astro');
+define('DB_NAME', 'linhthao_astro');
 
 /** MySQL database username */
-define('DB_USER', 'cmsbluet_admin');
+define('DB_USER', 'linhthao_lt');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'LI^~,O&F7]JR');
+define('DB_PASSWORD', 'khoald2302');
 
 /** MySQL hostname */
-define('DB_HOST', 'cmsbluetheme.com');
+define('DB_HOST', '103.3.244.70');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
