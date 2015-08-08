@@ -20,7 +20,7 @@
 define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] .'/wordpress/wp_astro/');
 define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] .'/wordpress/wp_astro/');
 
-define('DB_NAME', 'linhthao_astro');
+define('DB_NAME', 'linhthao_astro'); 
 
 /** MySQL database username */
 define('DB_USER', 'linhthao_lt');
