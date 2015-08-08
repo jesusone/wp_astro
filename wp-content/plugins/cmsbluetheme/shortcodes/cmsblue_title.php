@@ -11,10 +11,10 @@ vc_map ( array (
 			"heading" => __ ( "Layout", CMSBLUE_NAME ),
 			"param_name" => "layout",
 			"value" => array(
-				"Layout Default" => "layout1",
-				"Layout2" => "layout2",
+				"Bottom Line" => "default",
+				"No Line Button" => "titlenobootom",
 			),
-			"description" => __ ( "Select style box.", CMSBLUE_NAME ),
+			"description" => __ ( "Select style tile.", CMSBLUE_NAME ),
 			"group" => __("General", CMSBLUE_NAME),
 		),
 		array(
@@ -23,7 +23,7 @@ vc_map ( array (
 			"class" => "",
 			"dependency" => array(
 				"element" => "layout",
-				"value" => "layout2"
+				"value" => "default"
 			),
 			"heading" => __("Small title", CMSBLUE_NAME),
 			"param_name" => "pr_small_title",
@@ -73,7 +73,7 @@ vc_map ( array (
 		array(
 			"type" => "cmsblue_template",
 			"param_name" => "cmsblue_template",
-			"shortcode" => "cmsblue_slide",
+			"shortcode" => "cmsblue_title",
 			"admin_label" => true,
 			"heading" => __("Shortcode Template",CMSBLUE_NAME),
 			"group" => __("Templete", CMSBLUE_NAME),

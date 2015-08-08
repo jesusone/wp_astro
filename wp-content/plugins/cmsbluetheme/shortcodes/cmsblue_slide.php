@@ -391,7 +391,6 @@ class WPBakeryShortCode_cmsblue_slide extends CmsBlueShortCode {
 			'text_button6' => __("Button",CMSBLUE_NAME),
 			), $atts); 
 		$atts = array_merge($atts_extra,$atts);
-		
 		$atts['image_number'] = $image_number; 
 		$slide = $atts;
 		$atts['template'] = 'template-'.str_replace('.php','',$atts['cmsblue_template']). ' content-align-' . $atts['content_align'] . ' '. $atts['class'];
