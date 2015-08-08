@@ -2,7 +2,7 @@
    global $chartPromSu, $head_small_title, $head_title, $pre_text;
    $count_item = 3; 
 ?>
-      <div class="container padding-top padding-bottom">   
+      <div class="container">   
       <?php if($head_small_title!='' ||  $head_title!='' || $pre_text!=''):?>
         <div class="row section-title text-center">
             <div class="col-sm-8 col-sm-offset-2">
