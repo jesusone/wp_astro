@@ -17,8 +17,8 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 /** The name of the database for WordPress */
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] .'/wp_astro/home-default/');
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] .'/wp_astro/home-default/');
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] .'/wordpress/wp_astro/');
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] .'/wordpress/wp_astro/');
 
 define('DB_NAME', 'linhthao_astro');
 
