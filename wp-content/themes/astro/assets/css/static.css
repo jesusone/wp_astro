@@ -1,29 +1,29 @@
 /*========================
 ======Main Navigation=====
 ==========================*/
-/*========================
-=======Typography=========
+/*========================
+=======Typography=========
 ==========================*/
-/*========================
-======Slider Section======
+/*========================
+======Slider Section======
 ==========================*/
 /*=========================
 ===Start Footer Section ===
 ===========================*/
-/* ========================================================================
-  1. Blog
+/* ========================================================================
+  1. Blog
 =================================================================== */
-/* -------------------------------
----------- Content ---------------
+/* -------------------------------
+---------- Content ---------------
 --------------------------------- */
-/* =================================
+/* =================================
   [Start] 1. Blog  */
 /* lg */
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2014 Daniel Eden
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2014 Daniel Eden
 */
 @charset "UTF-8";
 #navigation .main-nav {
@@ -346,11 +346,11 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 100%;
   height: 100%;
-  /*=======  End  ==========
-=======Typography=========
+  /*=======  End  ==========
+=======Typography=========
 ==========================*/
-  /*========================
-=======Preloader CSS======
+  /*========================
+=======Preloader CSS======
 ==========================*/ }
 
 .preloader {
@@ -373,8 +373,8 @@ h1, h2, h3, h4, h5, h6 {
   display: table-cell;
   vertical-align: middle;
   margin: 0 auto;
-  /*=======================
-=====Start Features =====
+  /*=======================
+=====Start Features =====
 =========================*/ }
 
 #features {
@@ -460,8 +460,8 @@ h1, h2, h3, h4, h5, h6 {
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  /*======= End ===========
-===== Features Section =====
+  /*======= End ===========
+===== Features Section =====
 =========================*/
   /* Style row Slider */ }
 
@@ -531,11 +531,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #main-carousel {
   overflow: hidden;
-  /*========End=============
-======Slider Section======
+  /*========End=============
+======Slider Section======
 ==========================*/
-  /*========================
-==Start Services Section===
+  /*========================
+==Start Services Section===
 ==========================*/ }
 
 .service-content {
@@ -568,11 +568,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px;
   color: #131316;
   text-transform: uppercase;
-  /*=======  End  ==========
-=====Services Section=====
+  /*=======  End  ==========
+=====Services Section=====
 ==========================*/
-  /*========================
-=Start Parallax-one Section=
+  /*========================
+=Start Parallax-one Section=
 ==========================*/ }
 
 .video-section {
@@ -643,11 +643,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffe600;
   font-size: 40px;
   margin-top: 10px;
-  /*========End==============
-== Parallax One Section====
+  /*========End==============
+== Parallax One Section====
 ===========================*/
-  /*========================
-==Start Work Section======
+  /*========================
+==Start Work Section======
 ==========================*/ }
 
 #our-work .section-title {
@@ -768,11 +768,11 @@ a.item-close i:hover {
   margin-left: 20px;
   margin-top: 15px;
   font-weight: 400;
-  /*======= End ============
-======== Work Section=====
+  /*======= End ============
+======== Work Section=====
 ==========================*/
-  /*========================
-===Start About Section====
+  /*========================
+===Start About Section====
 ==========================*/ }
 
 #about-us .section-title {
@@ -807,11 +807,11 @@ a.item-close i:hover {
   font-weight: 500;
   margin-bottom: 17px;
   text-transform: uppercase;
-  /*======= End ===========
-===== About Section =====
+  /*======= End ===========
+===== About Section =====
 =========================*/
-  /*=======================
-=====Start Features =====
+  /*=======================
+=====Start Features =====
 =========================*/ }
 
 #features {
@@ -895,11 +895,11 @@ a.item-close i:hover {
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  /*======= End ===========
-===== Features Section =====
+  /*======= End ===========
+===== Features Section =====
 =========================*/
-  /*========================
-==Start Team Section =====
+  /*========================
+==Start Team Section =====
 ==========================*/ }
 
 #team {
@@ -977,11 +977,11 @@ a.item-close i:hover {
   top: 50%;
   color: #333;
   margin-top: -25px;
-  /*======== End ==========
-====== Team Section =====
+  /*======== End ==========
+====== Team Section =====
 =========================*/
-  /*========================
-=== Start Blog Section ===
+  /*========================
+=== Start Blog Section ===
 ==========================*/ }
 
 #blog-section .section-title {
@@ -1010,20 +1010,20 @@ a.item-close i:hover {
   background-color: -ms-linear-gradient(left, rgba(255, 230, 0, 0.95) 39%, rgba(255, 230, 0, 0.95) 45%, rgba(255, 230, 0, 0.95) 58%, rgba(255, 230, 0, 0.95) 65%, rgba(255, 230, 0, 0.95) 66%, rgba(255, 230, 0, 0.42) 97%, rgba(255, 230, 0, 0.42) 100%);
   background-color: linear-gradient(to right, rgba(255, 230, 0, 0.95) 39%, rgba(255, 230, 0, 0.95) 45%, rgba(255, 230, 0, 0.95) 58%, rgba(255, 230, 0, 0.95) 65%, rgba(255, 230, 0, 0.95) 66%, rgba(255, 230, 0, 0.42) 97%, rgba(255, 230, 0, 0.42) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe600', endColorstr='#ffe600', GradientType=1);
-  /*#blog-section .post-one-bg {
-  background:url(../images/blog/blog-bg1.jpg);  
-}
-
-#blog-section .post-two-bg {
-  background-image:url(../images/blog/blog-bg2.jpg);
-} 
-
-#blog-section .post-three-bg {
-  background-image:url(../images/blog/blog-bg3.jpg);
-} 
-
-#blog-section .post-four-bg {
-  background-image:url(../images/blog/blog-bg4.jpg);
+  /*#blog-section .post-one-bg {
+  background:url(../images/blog/blog-bg1.jpg);  
+}
+
+#blog-section .post-two-bg {
+  background-image:url(../images/blog/blog-bg2.jpg);
+} 
+
+#blog-section .post-three-bg {
+  background-image:url(../images/blog/blog-bg3.jpg);
+} 
+
+#blog-section .post-four-bg {
+  background-image:url(../images/blog/blog-bg4.jpg);
 }*/ }
 
 #blog-section .post-one-bg, #blog-section .post-two-bg, #blog-section .post-three-bg, #blog-section .post-four-bg {
@@ -1110,19 +1110,19 @@ a.item-close i:hover {
 
 .post-info a i {
   padding-right: 7px;
-  /*======== End ===========
-===== Blog Section =======
+  /*======== End ===========
+===== Blog Section =======
 ==========================*/
-  /*========================
-==Start pricing Section===
+  /*========================
+==Start pricing Section===
 ==========================*/ }
 
 #pricing {
-  /*======== End ===========
-====== pricing Section ===
+  /*======== End ===========
+====== pricing Section ===
 ==========================*/
-  /*========================
-== Start Happy Section ===
+  /*========================
+== Start Happy Section ===
 ==========================*/ }
   #pricing .pricing-table.featured .price-head h2.price-name, #pricing .pricing-table.featured .price-head h2.price-name strong {
     background-color: #ffe600;
@@ -1226,11 +1226,11 @@ a.item-close i:hover {
   font-weight: bold;
   line-height: normal;
   color: #fff;
-  /*======== End ===========
-====== Happy Section =====
+  /*======== End ===========
+====== Happy Section =====
 ==========================*/
-  /*========================
-==Start Shop Section======
+  /*========================
+==Start Shop Section======
 ==========================*/ }
 
 .product-details {
@@ -1340,11 +1340,11 @@ a.item-close i:hover {
 
 #loadMore span:hover {
   color: #000;
-  /*======== End ===========
-====== Shop Section ======
+  /*======== End ===========
+====== Shop Section ======
 ==========================*/
-  /*========================
-==Start clients Section===
+  /*========================
+==Start clients Section===
 ==========================*/ }
 
 #clients {
@@ -1366,11 +1366,11 @@ a.item-close i:hover {
 
 #clients img:hover {
   opacity: 1;
-  /*======== End ===========
-===== clients Section ====
+  /*======== End ===========
+===== clients Section ====
 ==========================*/
-  /*========================
-==Start contact Section===
+  /*========================
+==Start contact Section===
 ==========================*/ }
 
 #contact .section-title {
@@ -1412,11 +1412,11 @@ a.item-close i:hover {
 
 #gmap {
   height: 550px;
-  /*=======  End  ==========
-====== contact Section ===
+  /*=======  End  ==========
+====== contact Section ===
 ==========================*/
-  /*========================
-==Start message Section===
+  /*========================
+==Start message Section===
 ==========================*/ }
 
 #message .padding-top {
@@ -1467,11 +1467,11 @@ textarea.form-control {
 #message .btn-default:before, #message .btn-default:after {
   top: 0;
   height: 62px;
-  /*======== End ===========
-===== message Section ====
+  /*======== End ===========
+===== message Section ====
 ==========================*/
-  /*======== Start ===========
-===== Our product Section ====
+  /*======== Start ===========
+===== Our product Section ====
 ==========================*/ }
 
 .spinner {
@@ -1597,57 +1597,57 @@ textarea.form-control {
   margin-right: 25px;
   padding: 2px;
   width: 75px;
-  /* [End] 1. Blog 
+  /* [End] 1. Blog 
 ===================================*/ }
 
 .sidebar-inner {
-  /* .nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-.pull-left{
-  margin: 0 25px 10px 0;
-}
-.pull-right{
-  margin: 0 0 10px 25px;
-}
-.sidebar-item {
-  margin-bottom: 45px;
-  h3 {
-    color: #404040;
-    border-bottom: 2px solid #dedcdc;
-    margin-bottom: 7px;
-    padding-bottom: 8px;
-    margin-top:0;
-    font-size:22px;
-  }
-  .media {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    margin-top: 0;
-    .pull-left {
-      img {
-        width: 60px;
-        height: 60px;
-        background-color:#f2f2f2;
-      }
-    }
-    .media-body {
-      font-size:12px;
-      h4 {
-        margin-top: 0;
-        margin-bottom: 8px;
-        a {
-          color: #908f8f;
-          font-size: 16px;
-        }
-      }
-    }
-  }
-  .navbar-stacked {}
-  .nav-pills {}
+  /* .nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.pull-left{
+  margin: 0 25px 10px 0;
+}
+.pull-right{
+  margin: 0 0 10px 25px;
+}
+.sidebar-item {
+  margin-bottom: 45px;
+  h3 {
+    color: #404040;
+    border-bottom: 2px solid #dedcdc;
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    margin-top:0;
+    font-size:22px;
+  }
+  .media {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 0;
+    .pull-left {
+      img {
+        width: 60px;
+        height: 60px;
+        background-color:#f2f2f2;
+      }
+    }
+    .media-body {
+      font-size:12px;
+      h4 {
+        margin-top: 0;
+        margin-bottom: 8px;
+        a {
+          color: #908f8f;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .navbar-stacked {}
+  .nav-pills {}
 } */ }
   .sidebar-inner .widget-area .widget {
     margin-bottom: 45px; }
