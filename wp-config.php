@@ -16,6 +16,10 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+/** The name of the database for WordPress */
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] .'/wp_astro/home-default/');
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] .'/wp_astro/home-default/');
+
 define('DB_NAME', 'cmsbluet_wp_astro');
 
 /** MySQL database username */
@@ -25,7 +29,7 @@ define('DB_USER', 'cmsbluet_admin');
 define('DB_PASSWORD', 'LI^~,O&F7]JR');
 
 /** MySQL hostname */
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', 'cmsbluetheme.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
