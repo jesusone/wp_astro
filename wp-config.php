@@ -20,7 +20,7 @@
 define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] .'/wp_astro/home-default/');
 define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] .'/wp_astro/home-default/');
 
-define('DB_NAME', 'cmsbluet_wp_astro');
+define('DB_NAME', 'cmsbluet_wp_astro'); 
 
 /** MySQL database username */
 define('DB_USER', 'cmsbluet_admin');
