@@ -7,4 +7,5 @@ require_once CMSBLUE_DIR . 'shortcodes/cmsblue_base.php';
 require_once CMSBLUE_DIR . 'shortcodes/cmsblue_portfolio.php';
 require_once CMSBLUE_DIR . 'shortcodes/cmsblue_slide.php';
 require_once CMSBLUE_DIR . 'shortcodes/cmsblue_title.php';
+require_once CMSBLUE_DIR . 'shortcodes/cmsblue_fancybox.php';
 ?>
