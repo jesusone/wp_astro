@@ -8,22 +8,22 @@ vc_map ( array (
 	"params" => array( 
 		array(
 			"type" => "textfield",
-			"heading" => __('Title', PR_THEME_NAME),
+			"heading" => __('Title', CMSBLUE_NAME),
 			"param_name" => "title_box",
-			"description" => __('Enter title box',PR_THEME_NAME)
+			"description" => __('Enter title box',CMSBLUE_NAME)
 		),
 		array(
 			"type" => "textarea",
-			"heading" => __('Description', PR_THEME_NAME),
+			"heading" => __('Description', CMSBLUE_NAME),
 			"param_name" => "description",
-			"description" => __('Enter content of box',PR_THEME_NAME)
+			"description" => __('Enter content of box',CMSBLUE_NAME)
 		),
 		array(
 			"type" => "textfield",
-			"heading" => __('Extra class', PR_THEME_NAME),
+			"heading" => __('Extra class', CMSBLUE_NAME),
 			"param_name" => "ex_class",
 			"value" => '',
-			"description" => __('Enter extra class form icon font.',PR_THEME_NAME)
+			"description" => __('Enter extra class form icon font.',CMSBLUE_NAME)
 		),
 		array(
 			"type" => "cmsblue_template",
